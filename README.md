@@ -1,2 +1,2 @@
 # coex11
-constant expression library under C++11
+constant expression (constexpr) utility library under C++11
