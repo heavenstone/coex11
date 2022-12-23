@@ -19,9 +19,6 @@ inline COEX11_CONSTEXPR size_t strnlen_ex_(char const* s, size_t n,
   return (!n || !*s) ? cnt : strnlen_ex_(++s, --n, ++cnt);
 }
 
-inline COEX11_CONSTEXPR char* strchr_ex_(const char* s, int c) COEX11_NOEXCEPT {
-}
-
 }  // namespace detail
 
 /// \brief
